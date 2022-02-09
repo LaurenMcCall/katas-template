@@ -13,6 +13,6 @@
 -- Ruby is used within the test cases just to validate your answer.
 
 
-(select *, 'Top 5' FROM books
+select * FROM books
 ORDER BY copies_sold DESC
-LIMIT 5);
+LIMIT 5;
