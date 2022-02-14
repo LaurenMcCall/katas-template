@@ -1,4 +1,5 @@
-using System Linq;
+using System;
+using System.Linq;
 
 public static class Kata
 {
@@ -6,15 +7,8 @@ public static class Kata
     {
         var squares = Array.ConvertAll(n, i => i * i);
 
-        // var squaredN = n.Select(x => x * x).ToArray();
-
-        // foreach (var squaredN in n)
-        // {
-        //     squaredN* squaredN;
-        // }
-
         var total = 0;
-        foreach (var i in n)
+        foreach (var i in squares)
         {
             total += i;
         }
